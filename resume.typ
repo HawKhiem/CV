@@ -17,13 +17,35 @@
   location: "Munich, Germany",
   date: "Oct 2022 - Present",
 )
+#edu_item(
+  name: "Studienkolleg, TU Darmstadt",
+  degree: "Foundation Course for International Students (GPA 1.0)",
+  location: "Darmstadt, Germany",
+  date: "Mar 2021 - Jan 2022",
+)
+#edu_item(
+  name: "Foreign Language High School",
+  degree: "High School Diploma — German DSD II, English C2 (IELTS 8.5)",
+  location: "Vietnam",
+  date: "Aug 2017 - Jul 2020",
+)
 
 #resume_heading[Experience]
+#exp_item(
+  role: "Team Lead & Full Stack Engineer (Meta Team)",
+  name: "Practical Course SAI, CSEE (TUM) — Industry Partner",
+  location: "Munich, Germany",
+  date: "Apr 2026 - Present",
+  [Lead the Meta team in a 10-person engineering project delivering an AI-powered intelligence platform for an industry client.],
+  [Coordinate cross-team collaboration across data engineering, AI/ML, and product sub-teams to align technical delivery with milestones.],
+  [Own the full-stack and infrastructure layers, including containerization (Docker) and CI/CD pipelines.],
+  [Drive engineering standards, code review practices, and release workflows across the codebase.]
+)
 #exp_item(
   role: "Teaching Assistant Tutor",
   name: "Technical University of Munich (TUM)",
   location: "Munich, Germany",
-  date: "Oct 2025 - Present",
+  date: "Oct 2025 - Mar 2026",
   [Tutor for the course “Introduction to Programming (CIT5230000)”.],
   [Led tutorials and helped students in understanding basic concepts of Java programming.],
   [Implemented a demo project],
@@ -51,9 +73,17 @@
 
 #resume_heading("Projects")
 #project_item(
+  name: "AI-Powered Intelligence Platform (Practical Course – SAI)",
+  skills: "FastAPI, GraphRAG, NER, Next.js, React, Docker, CI/CD",
+  date: "Apr 2026 - Present",
+  [Full-stack and infrastructure engineering for an industry-partnered AI platform built by a 10-person team.],
+  [Established the project's containerization (Docker) and CI/CD pipelines as Meta team lead.],
+  [Set up shared engineering workflows and release processes to support parallel development across sub-teams.]
+)
+#project_item(
   name: "Bachelor Thesis – AI-Assisted Exercise Authoring in Artemis",
   skills: "Java, Spring Boot, Spring AI, Angular, MySQL, Docker",
-  date: "Nov 2025 - Present",
+  date: "Nov 2025 - Mar 2026",
   [Designed and implemented an AI-assisted authoring module for the Artemis learning platform, supporting automated generation and refinement of programming exercises.],
   [Architected a modular Spring Boot extension integrating Large Language Models via Spring AI in a production-ready backend environment.],
   [Implemented AI-driven quality analysis, competency inference (CS2023), and difficulty assessment workflows to improve constructive alignment.],
@@ -97,12 +127,17 @@
 
 #skill_item(
   category: "Frameworks & Technologies",
-  skills: "Spring Boot, Spring AI, Angular, FastAPI, Docker"
+  skills: "Spring Boot, Spring AI, Angular, React, Node.js, FastAPI, REST APIs"
+)
+
+#skill_item(
+  category: "DevOps & Infrastructure",
+  skills: "Docker, CI/CD, GitHub Actions, Linux"
 )
 
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, IntelliJ IDEA, VS Code, Visual Studio, PyCharm, Eclipse"
+  skills: "Git, IntelliJ IDEA, VS Code, Visual Studio, PyCharm, Eclipse"
 )
 
 #skill_item(
@@ -113,29 +148,4 @@
 #skill_item(
   category: "Languages",
   skills: "English (Fluent), German (Fluent), Vietnamese (Native)"
-)
-
-#resume_heading("Images from Projects")
-#pad(left: 1em, right: 0.5em,
-  grid(
-    columns: (1fr, 1fr),
-    gutter: 8pt,
-
-    figure(
-      image("thesis.png", width: 100%),
-      caption: [Bachelor Thesis - Artemis AI Authoring]
-    ),
-    figure(
-      image("runner.png", width: 100%),
-      caption: [3D ML-Agent Training (Unity)]
-    ),
-    figure(
-      image("piairno.png", width: 100%),
-      caption: [AirPiano Gesture Recognition]
-    ),
-    figure(
-      image("fourier.png", width: 100%),
-      caption: [Fourier Series Epicycle Drawing]
-    )
-  )
 )
