@@ -33,9 +33,10 @@
 #resume_heading[Experience]
 #exp_item(
   role: "Team Lead & Full Stack Engineer (Meta Team)",
-  name: "Practical Course SAI, CSEE (TUM) — Industry Partner",
+  name: "Company Internship via Practical Course SAI — Software Engineering & Applied AI, CSEE (Center for Software Engineering Excellence), TUM",
   location: "Munich, Germany",
   date: "Apr 2026 - Present",
+  [Company internship completed as part of the university practical course SAI (Software Engineering & Applied AI), organized by the Center for Software Engineering Excellence (CSEE) at TUM.],
   [Lead the Meta team in a 10-person engineering project delivering an AI-powered intelligence platform for an industry client.],
   [Coordinate cross-team collaboration across data engineering, AI/ML, and product sub-teams to align technical delivery with milestones.],
   [Own the full-stack and infrastructure layers, including containerization (Docker) and CI/CD pipelines.],
@@ -73,16 +74,18 @@
 
 #resume_heading("Projects")
 #project_item(
-  name: "AI-Powered Intelligence Platform (Practical Course – SAI)",
-  skills: "FastAPI, GraphRAG, NER, Next.js, React, Docker, CI/CD",
-  date: "Apr 2026 - Present",
-  [Full-stack and infrastructure engineering for an industry-partnered AI platform built by a 10-person team.],
-  [Established the project's containerization (Docker) and CI/CD pipelines as Meta team lead.],
-  [Set up shared engineering workflows and release processes to support parallel development across sub-teams.]
+  name: "AI Intelligence Platform – Company Internship via Practical Course SAI (Software Engineering & Applied AI, CSEE), TUM",
+  skills: "FastAPI, PydanticAI, Neo4j, NER, Redis Streams, PostgreSQL, Next.js, TypeScript, Docker, CI/CD",
+  date: "Apr 2026 - Jul 2026",
+  [Company internship delivered through the university practical course SAI (Software Engineering & Applied AI), organized by the Center for Software Engineering Excellence (CSEE) at TUM.],
+  [Meta team lead for a 10-person team: owned Docker containerization, CI/CD pipelines, and shared Git/release workflows enabling parallel development across sub-teams.],
+  [Designed and built a multi-agent LLM simulation engine (PydanticAI) with live SSE streaming, crash-safe resume over Redis Streams, and swappable managed/self-hosted models.],
+  [Built an entity-extraction and enrichment pipeline: LLM-based NER with knowledge-base entity resolution feeding a Neo4j knowledge graph, plus resilient stream workers.],
+  [Hardened backend reliability under load: retry/dead-letter queues, connection-pool and idle-transaction fixes, and observable bounded LLM calls, removing silent message drops and pipeline stalls.]
 )
 #project_item(
   name: "Bachelor Thesis – AI-Assisted Exercise Authoring in Artemis",
-  skills: "Java, Spring Boot, Spring AI, Angular, MySQL, Docker",
+  skills: "Java, Spring Boot, Spring AI, Angular, TypeScript, MySQL, Docker",
   date: "Nov 2025 - Mar 2026",
   [Designed and implemented an AI-assisted authoring module for the Artemis learning platform, supporting automated generation and refinement of programming exercises.],
   [Architected a modular Spring Boot extension integrating Large Language Models via Spring AI in a production-ready backend environment.],
@@ -122,7 +125,7 @@
 #resume_heading("Skills")
 #skill_item(
   category: "Programming Languages",
-  skills: "Java, Python, C/C++, SQL (PostgreSQL), JavaScript, HTML/CSS"
+  skills: "Java, Python, C/C++, SQL (PostgreSQL), JavaScript, TypeScript, HTML/CSS"
 )
 
 #skill_item(
