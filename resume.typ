@@ -13,9 +13,15 @@
 #resume_heading[Education]
 #edu_item(
   name: "Technical University of Munich (TUM)",
+  degree: "Master of Science in Computer Science",
+  location: "Munich, Germany",
+  date: "Oct 2026 - Present",
+)
+#edu_item(
+  name: "Technical University of Munich (TUM)",
   degree: "Bachelor of Science in Computer Science",
   location: "Munich, Germany",
-  date: "Oct 2022 - Present",
+  date: "Oct 2022 - Sep 2026",
 )
 #edu_item(
   name: "Studienkolleg, TU Darmstadt",
@@ -32,15 +38,24 @@
 
 #resume_heading[Experience]
 #exp_item(
+  role: "Contributor, Tech Task Force",
+  name: "CSEE (Center for Software Engineering Excellence)",
+  location: "Munich, Germany",
+  date: "Jun 2026 - Present",
+  [Develop CSEE Base, CSEE's central data platform (Supabase/PostgreSQL, Fastify, React); 27 merged PRs.],
+  [Built portal features end to end: profiles, role-aware dashboards, a tiered member directory, a company directory, and a consented partner talent pool.],
+  [Integrated the Luma event calendar with an ICS fallback and set up the frontend test harness (Vitest).]
+)
+#exp_item(
   role: "Team Lead & Full Stack Engineer (Meta Team)",
   name: "Company Internship via Practical Course SAI — Software Engineering & Applied AI, CSEE (Center for Software Engineering Excellence), TUM",
   location: "Munich, Germany",
-  date: "Apr 2026 - Present",
+  date: "Apr 2026 - Jul 2026",
   [Company internship completed as part of the university practical course SAI (Software Engineering & Applied AI), organized by the Center for Software Engineering Excellence (CSEE) at TUM.],
-  [Lead the Meta team in a 10-person engineering project delivering an AI-powered intelligence platform for an industry client.],
-  [Coordinate cross-team collaboration across data engineering, AI/ML, and product sub-teams to align technical delivery with milestones.],
-  [Own the full-stack and infrastructure layers, including containerization (Docker) and CI/CD pipelines.],
-  [Drive engineering standards, code review practices, and release workflows across the codebase.]
+  [Led the Meta team in a 10-person engineering project delivering an AI-powered intelligence platform for an industry client.],
+  [Coordinated cross-team collaboration across data engineering, AI/ML, and product sub-teams to align technical delivery with milestones.],
+  [Owned the full-stack and infrastructure layers, including containerization (Docker) and CI/CD pipelines.],
+  [Drove engineering standards, code review practices, and release workflows across the codebase.]
 )
 #exp_item(
   role: "Teaching Assistant Tutor",
@@ -49,9 +64,7 @@
   date: "Oct 2025 - Mar 2026",
   [Tutor for the course “Introduction to Programming (CIT5230000)”.],
   [Led tutorials and helped students in understanding basic concepts of Java programming.],
-  [Implemented a demo project],
-  [Fixed issues on Artemis],
-  [Graded projects and supervise exams]
+  [Implemented a demo project, fixed issues on Artemis, graded projects, and supervised exams.]
 )
 #exp_item(
   role: "Teaching Assistant Tutor",
@@ -62,22 +75,20 @@
   [Guided students in CI/CD pipelines, containerization (Docker), and deployment workflows.],
   [Evaluated student projects and presentations, providing structured technical feedback.]
 )
-#exp_item(
-  role: "Teaching Assistant Tutor",
-  name: "Technical University of Munich (TUM)",
-  location: "Munich, Germany",
-  date: "Oct 2024 - Mar 2025",
-  [Led weekly tutorials covering Java programming fundamentals and software design principles.],
-  [Mentored students in debugging, algorithmic thinking, and clean code practices.],
-  [Graded assignments and supervised written examinations.]
-)
 
 #resume_heading("Projects")
 #project_item(
-  name: "AI Intelligence Platform – Company Internship via Practical Course SAI (Software Engineering & Applied AI, CSEE), TUM",
+  name: "IDP – Benchmarking Exercise Generation in Artemis",
+  skills: "Java, Spring AI, LLMs",
+  date: "Oct 2026 - Present",
+  [Benchmarking and improving Hyperion, Artemis's agentic generator of autograder-ready exercises.],
+  [Co-developing ExGen-Bench: an exercise evaluator and an LLM judge validated by inter-rater agreement.],
+  [Measuring a reproducible baseline (success rate, cost, latency); keeping only re-run-confirmed changes.]
+)
+#project_item(
+  name: "AI Intelligence Platform – SAI Company Internship, TUM",
   skills: "FastAPI, PydanticAI, Neo4j, NER, Redis Streams, PostgreSQL, Next.js, TypeScript, Docker, CI/CD",
   date: "Apr 2026 - Jul 2026",
-  [Company internship delivered through the university practical course SAI (Software Engineering & Applied AI), organized by the Center for Software Engineering Excellence (CSEE) at TUM.],
   [Meta team lead for a 10-person team: owned Docker containerization, CI/CD pipelines, and shared Git/release workflows enabling parallel development across sub-teams.],
   [Designed and built a multi-agent LLM simulation engine (PydanticAI) with live SSE streaming, crash-safe resume over Redis Streams, and swappable managed/self-hosted models.],
   [Built an entity-extraction and enrichment pipeline: LLM-based NER with knowledge-base entity resolution feeding a Neo4j knowledge graph, plus resilient stream workers.],
